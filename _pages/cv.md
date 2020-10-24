@@ -11,30 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BSc & MSc in ECE at National Technical University of Athens (2015-Present)
+* 4th Lyceum of Zografou (2012-2015)
+
+
+Research experience
+======
+* Research on Computer Vision 
+
+* Research on Automatic Speech Recognition
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Google Summer of Code Student (April 2019 - August 2019)
+
+
+Honor / Awards
+======
+* “The Great Moment of Education“ scholarship by **Eurobank EFG**
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, Matlab, C, Java
+* Machine Learning Frameworks: Pytorch, Tensorflow
+* Libraries and Toolkits: OpenCV, CMU Sphinx, Scikit-learn
+* Databases:  SQL, MongoDB
 
 Publications
 ======
@@ -42,18 +44,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+
+References Upon Request
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
