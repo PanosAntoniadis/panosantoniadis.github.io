@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-A full version available <a href="files/cv.pdf">here</a>.
+A full version available <a href="https://panosantoniadis.github.io/files/cv.pdf">here</a>.
 
 Education
 ======
