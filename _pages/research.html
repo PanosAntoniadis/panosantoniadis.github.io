@@ -7,9 +7,41 @@ redirect_from:
   - /research
 ---
 
+
 {% include base_path %}
 
 
-{% for post in site.research %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2  itemprop="headline">
+      Deep Facial Expression Recognition Exploiting Categorical and Continuous Emotional Dependencies
+    </h2>
+
+    <p class="archive__item-excerpt" itemprop="description">
+      <ul>
+        <li>Ongoing diploma thesis in CVSP Lab (NTUA) under supervision of Prof. Petros Maragos</li>
+        <li>Introductory presentation to the topic (<a href="files/thesis_intro_presentation.pdf">pdf</a>)</li>
+        <li>Intermediate progress reprort (<a href="files/thesis_progress_report.pdf">pdf</a>)</li>
+        <li>Intermediate progress presentation (<a href="files/thesis_progress_presentation.pdf">pdf</a>)</li>
+    </ul>
+    </p>
+    
+    
+  </article>
+
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      A mechanism for personalized Automatic Speech Recognition for less frequently spoken languages: the Greek case
+    </h2>
+
+    <p itemprop="description">
+      <ul>
+        <li>Research in collaboration with Prof. Andreas Symeonidis and Dr. Emmanouil Tsardoulias.</li>
+        <li>Paper submitted in Speech Communication journal.</li>
+        <li>Code of the paper (link available soon)</li>
+        <li>Preprint available (<a href="files/personalized_asr.pdf">pdf</a>)</li>
+    </ul>
+    </p>
+        
+  </article>
+</div>

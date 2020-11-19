@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+
+A full version available <a href="files/cv.pdf">here</a>.
+
 Education
 ======
 * BSc & MSc in Electrical and Computer Engineering at NTUA (2015-Present)
@@ -35,12 +38,6 @@ Skills
 * Machine Learning Frameworks: Pytorch, Tensorflow
 * Libraries and Toolkits: OpenCV, CMU Sphinx, Scikit-learn
 * Databases:  SQL, MongoDB
-
-Working paper
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Honor / Awards
 ======
