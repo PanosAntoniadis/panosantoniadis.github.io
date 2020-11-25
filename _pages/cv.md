@@ -10,12 +10,11 @@ redirect_from:
 {% include base_path %}
 
 
-A full version available <a href="https://panosantoniadis.github.io/files/cv.pdf">here</a>.
+A full version available <a href="https://panosantoniadis.github.io/files/cv.pdf" target="_blank" >here</a>.
 
 Education
 ======
 * BSc & MSc in Electrical and Computer Engineering at NTUA (2015-Present)
-* 4th General Lyceum of Zografou (2012-2015)
 
 Research experience
 ======
@@ -41,7 +40,7 @@ Skills
 
 Honor / Awards
 ======
-* “The Great Moment of Education“ scholarship by **Eurobank EFG**
+* “The Great Moment of Education“ scholarship by Eurobank EFG
 
 References Upon Request
 ======

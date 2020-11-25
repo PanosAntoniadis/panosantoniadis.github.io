@@ -7,8 +7,67 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 itemprop="headline">
+      Creation of an online Greek mail dictation system using Sphinx and personalized acoustic/language model training
+    </h2>
+    <i>Project of Google Summer of Code 2019 (<a href="https://github.com/eellak/gsoc2019-sphinx" target="_blank">link</a>)</i>
+    <br/> <br/>
+    <img src='/images/project_1.png' width=336 height=200>
+  </article>
+</div>
 
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 itemprop="headline">
+      Optical Flow Estimation - Feature Extraction in Images and Videos
+    </h2>
+    <i>Lab exercises of Computer Vision course (<a href="https://github.com/PanosAntoniadis/computer_vision-ntua" target="_blank">link</a>)</i>
+    <br/> <br/>
+    <img src='/images/project_2.gif' width=420 height=250>"
+  </article>
+</div>
 
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 itemprop="headline">
+      Digit Recognition - Speech Recognition - Genre Classification
+    </h2>
+    <i>Lab exercises of Pattern Recognition course (<a href="https://github.com/PanosAntoniadis/pattern_recognition-ntua" target="_blank">link</a>)</i>
+    <br/> <br/>
+    <img src='/images/project_3.png' width=490 height=200>
+  </article>
+</div>
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 itemprop="headline">
+      Noobcash: A simple blockchain system
+    </h2>
+    <i>Blockchain system created as a part of the Distributed Systems course (<a href="https://github.com/PanosAntoniadis/noobcash" target="_blank">link</a>)</i>
+    <br/> <br/>
+    <img src='/images/project_4.png' width=342 height=80>
+  </article>
+</div>
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 itemprop="headline">
+      Clustering of Taxi Trip Data
+    </h2>
+    <i>Perform clustering on a large dataset using Spark (<a href="https://github.com/PanosAntoniadis/map_reduce-ntua" target="_blank">link</a>)</i>
+    <br/> <br/>
+    <img src='/images/project_5.png' width=439 height=200>
+  </article>
+</div>
+
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 itemprop="headline">
+      Parallel Programming for GPUs - Matrix Multiplication
+    </h2>
+    <i>Implementation of the Dense Matrix Multiplication algorithm for GPUs (<a href="https://github.com/PanosAntoniadis/cuda-exercises-ntua" target="_blank">link</a>)</i>
+  </article>
+</div>
