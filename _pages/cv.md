@@ -29,7 +29,7 @@ Research experience
 Work experience
 ======
 
-* Google Summer of Code Student (April 2019 - August 2019)
+* Google Summer of Code Student (April 2019 - September 2019)
 
 Skills
 ======

@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am senior undergraduate student in Electrical and Computer Engineering at National Technical University of Athens (NTUA). My research interests lie in the areas of computer vision, signal processing and machine learning.
+I am a senior undergraduate student in Electrical and Computer Engineering at the National Technical University of Athens (NTUA). My research interests lie in the areas of computer vision, signal processing and machine learning.
