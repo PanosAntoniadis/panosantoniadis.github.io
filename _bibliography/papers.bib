@@ -1,115 +1,116 @@
 ---
 ---
+@inproceedings{10386596,
+  abbr={BigData 2023},
+  author={Antoniadis, Panagiotis and Sartzetaki, Christina and Antonopoulos, Nick and Papageorgiou, Pantelis and Korfiati, Aigli and Pitsikalis, Vassilis},
+  booktitle={Proceedings of the IEEE International Conference on Big Data}, 
+  title={Mask-cscGAN for realistic synthetic cell generation}, 
+  year={2023},
+  pages={4575-4583},
+  keywords={Deep learning;Sequential analysis;Ethics;Costs;RNA;Precision medicine;Predictive models;scRNA-seq;synthetic cells generation;cancer subtype classification;GAN;rare cell types},
+  doi={10.1109/BigData59044.2023.10386596},
+  pdf={https://www.researchgate.net/profile/Panagiotis_Antoniadis4/publication/377623178_Mask-cscGAN_for_realistic_synthetic_cell_generation/links/65b0d1a76c7ad06ab4263350/Mask-cscGAN-for-realistic-synthetic-cell-generation.pdf},
+  video={https://youtu.be/0bIjJrPy2fI?si=g52rqZXNnxRHNUaL},
+  preview={maskcscgan.png},
+  bibtex_show=True,
+  selected=True,
+  abstract={Deep learning methods for RNA sequencing data have exploded in the recent years due to the advent of singlecell RNA sequencing (scRNA-seq), which enables the study of multiple cells per-patient simultaneously. However, 
+  in the case of rare cell types, data scarcity continues to exist, posing several challenges, while preventing the exploitation of deep learning models’ full predictive power. Generating realistic synthetic cells to augment the data 
+  could allow for more informative subsequent downstream analyses. Herein, we introduce Mask-cscGAN, a conditional generative adversarial network (GAN) that generates realistic synthetic cells with desired characteristics managing also to 
+  model genes' sparsity through learning a mask of zeros. Employed for the augmentation of a glioblastoma multiforme (GBM) malignant cells dataset, Mask-cscGAN generates realistic synthetic cells of desired cancer subtypes. Generating cells 
+  of a rare cancer subtype, Mask-cscGAN improves the classification performance of the rare cancer subtype by 12.29%. Mask-cscGAN is the first to generate realistic synthetic cells belonging to specified cancer subtypes, and augmentation with 
+  Mask-cscGAN outperforms state-of-the-art methods in rare cancer subtype classification.}
+  }
 
-@string{aps = {American Physical Society,}}
+@inproceedings{10394335,
+  abbr={SMC 2023},
+  author={Sartzetaki, Christina and Antoniadis, Panagiotis and Antonopoulos, Nick and Gkinis, Ioannis and Krasoulis, Agamemnon and Perdikis, Serafeim and Pitsikalis, Vassilis},
+  booktitle={Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics}, 
+  title={Beyond Within-Subject Performance: A Multi-Dataset Study of Fine-Tuning in the EEG Domain}, 
+  year={2023},
+  pages={4429-4435},
+  keywords={Training;Neural networks;Transfer learning;Self-supervised learning;Electroencephalography;Calibration;Standards;BCI;EEG;Motor Imagery;Domain Adaptation;Fine-tuning;BCI-illiteracy},
+  doi={10.1109/SMC53992.2023.10394335},
+  pdf={https://www.researchgate.net/publication/377793998_Beyond_Within-Subject_Performance_A_Multi-Dataset_Study_of_Fine-Tuning_in_the_EEG_Domain},
+  video={https://youtu.be/ebRElr887Xs?si=_C9YEAz76QGI-gYg},
+  preview={bci_demo.png},
+  bibtex_show=True,
+  selected=True,
+  abstract={There is a critical demand for BCI systems that can swiftly adapt to a new user and at the same time function with any user. We propose a fine-tuning approach for neural networks that 
+  serves a dual purpose; first, to minimize calibration times through requiring considerably less data - up to one-sixth - from the target subject than training from scratch, and second, to alleviate
+  cases of user illiteracy by providing a substantial performance boost of over 11% in absolute accuracy from the features learned from other subjects. Ultimately, our adaptation method surpasses standard 
+  within-subject performance by a large margin in all subjects. We present ablation studies across three datasets, in which we demonstrate that fine-tuning outperforms other adaptation methods for BCI systems and that what matters 
+  most is the quantity of pre-training subjects, rather than their BCI-ability, achieving over 8% absolute increase in classification accuracy when scaling up the order of magnitude. Finally, we compare our approach to the 
+  state-of-the-art in EEG-based motor imagery and find it comparable, if not superior, to methods employing far more complex neural networks, obtaining 82.60% and 85.64% within-subject accuracy in the four-class BCIC IV-2a 
+  and binary MMI datasets respectively.}
+  }
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{9667014,
+  abbr={FG 2021},
+  author={Antoniadis, Panagiotis and Filntisis, Panagiotis Paraskevas and Maragos, Petros},
+  booktitle={Proceedings of the IEEE International Conference on Automatic Face and Gesture Recognition}, 
+  title={Exploiting Emotional Dependencies with Graph Convolutional Networks for Facial Expression Recognition}, 
+  year={2021},
+  pages={1-8},
+  keywords={Deep learning;Emotion recognition;Image recognition;Databases;Face recognition;Conferences;Psychology},
+  doi={10.1109/FG52635.2021.9667014},
+  pdf={https://arxiv.org/pdf/2106.03487},
+  video={https://youtu.be/UE3HvuPFawg?si=Yi3AKxva4U_KKTlK},
+  bibtex_show=True,
+  code={https://github.com/PanosAntoniadis/emotion-gcn},
+  selected=True,
+  abstract={Over the past few years, deep learning methods have shown remarkable results in many face-related tasks including automatic facial expression recognition (FER) in-the-wild. Meanwhile, numerous models describing the human 
+  emotional states have been proposed by the psychology community. However, we have no clear evidence as to which representation is more appropriate and the majority of FER systems use either the categorical or the dimensional model of affect. 
+  Inspired by recent work in multi-label classification, this paper proposes a novel multi-task learning (MTL) framework that exploits the dependencies between these two models using a Graph Convolutional Network (GCN) to recognize facial expressions 
+  in-the-wild. Specifically, a shared feature representation is learned for both discrete and continuous recognition in a MTL setting. Moreover, the facial expression classifiers and the valence-arousal regressors are learned through a GCN that explicitly 
+  captures the dependencies between them. To evaluate the performance of our method under real-world conditions we perform extensive experiments on the AffectNet and Aff-Wild2 datasets. The results of our experiments show that our method is capable of improving 
+  the performance across different datasets and backbone architectures. Finally, we also surpass the previous state-of-the-art methods on the categorical model of AffectNet.},
+  preview={emotion_gcn.png}
+  }
+
+@article{Antoniadis2022,
+abbr={MTAP},
+author={Antoniadis, Panagiotis and Tsardoulias, Emmanouil and Symeonidis, Andreas},
+title={A mechanism for personalized Automatic Speech Recognition for less frequently spoken languages: the Greek case},
+journal={Multimedia Tools and Applications},
+year={2022},
+volume={81},
+pages={40635-40652},
+abstract={Automatic Speech Recognition (ASR) has become increasingly popular since it significantly simplifies human-computer interaction, providing a more intuitive way of communication. 
+Building an accurate, general-purpose ASR system is a challenging task that requires a lot of data and computing power. Especially for languages not widely spoken, such as Greek, the lack 
+of adequately large speech datasets leads to the development of ASR systems adapted to a restricted corpus and/or for specific topics. When used in specific domains, these systems can be 
+both accurate and fast, without the need for large datasets and extended training. An interesting application domain of such narrow-scope ASR systems is the development of personalized 
+models that can be used for dictation. In the current work we present three personalization-via-adaptation modules, that can be integrated into any ASR/dictation system and increase its 
+accuracy. The adaptation can be applied both on the language model (based on past text samples of the user) as well as on the acoustic model (using a set of user's narrations). To provide 
+more precise recommendations, clustering algorithms are applied and topic-specific language models are created. Also, heterogeneous adaptation methods are combined to provide recommendations 
+to the user. Evaluation performed on a self-created database containing 746 corpora included in messaging applications and e-mails from the same user, demonstrates that the proposed approach can 
+achieve better results than the vanilla existing Greek models.},
+issn={1573-7721},
+doi={10.1007/s11042-022-12953-6},
+bibtex_show=True,
+url={https://doi.org/10.1007/s11042-022-12953-6},
+pdf={https://www.researchgate.net/publication/360557868_A_mechanism_for_personalized_Automatic_Speech_Recognition_for_less_frequently_spoken_languages_the_Greek_case},
+preview={mtap.png},
+code={https://github.com/PanosAntoniadis/personalized_asr}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{Antoniadis_2021_ICCV,
+  abbr={ICCV 2021},
+  author    = {Antoniadis, Panagiotis and Pikoulis, Ioannis and Filntisis, Panagiotis P. and Maragos, Petros},
+  title     = {An Audiovisual and Contextual Approach for Categorical and Continuous Emotion Recognition In-the-Wild},    
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops},
+  year      = {2021},
+  pages     = {3645-3651},
+  pdf = {https://openaccess.thecvf.com/content/ICCV2021W/ABAW/papers/Antoniadis_An_Audiovisual_and_Contextual_Approach_for_Categorical_and_Continuous_Emotion_ICCVW_2021_paper.pdf},
+  video = {https://youtu.be/q_0m0nuoMA4?si=qicDRf2tueDw4y9K},
+  bibtex_show=True,
+  code = {https://github.com/PanosAntoniadis/NTUA-ABAW2021},
+  abstract = {In this work we tackle the task of video-based audio-visual emotion recognition, within the premises of the 2nd Workshop and Competition on Affective Behavior Analysis in-the-wild (ABAW2). 
+  Poor illumination conditions, head/body orientation and low image resolution constitute factors that can potentially hinder performance in case of methodologies that solely rely on the extraction and analysis of 
+  facial features. In order to alleviate this problem, we leverage both bodily and contextual features, as part of a broader emotion recognition framework. We choose to use a standard CNN-RNN cascade as the backbone of 
+  our proposed model for sequence-to-sequence (seq2seq) learning. Apart from learning through the RGB input modality, we construct an aural stream which operates on sequences of extracted mel-spectrograms. Our extensive experiments 
+  on the challenging and newly assembled Aff-Wild2 dataset verify the validity of our intuitive multi-stream and multi-modal approach towards emotion recognition in-the-wild. Emphasis is being laid on the the beneficial influence of 
+  the human body and scene context, as aspects of the emotion recognition process that have been left relatively unexplored up to this point. All the code was implemented using PyTorch and is publicly available.},
+  preview = {abaw.png}
 }
