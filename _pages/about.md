@@ -16,6 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<a href='https://www1.bio.ku.dk/english/research/scarb/'>Section for Computational and RNA Biology</a> <br>
+<a href='https://mlls.dk/'>Centre for Basic Machine Learning Research in Life Science</a> <br>
+<a href='https://www.aicentre.dk/'>Pioneer Centre for Artificial Intelligence</a>
 &nbsp;
 
 I am an <a target="_blank" href="https://ellis.eu/phd-postdoc">ELLIS PhD student</a> in Machine Learning at the University of Copenhagen, supervised by <a target="_blank" href="https://scholar.google.com/citations?user=7VAwhzUAAAAJ&hl=en">Ole Winther</a>. My research focuses on applying deep learning methods to biological applications. 
