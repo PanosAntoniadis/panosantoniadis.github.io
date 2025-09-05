@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 <a href='https://www.aicentre.dk/'>Pioneer Centre for Artificial Intelligence</a>
 &nbsp;
 
-I am an <a target="_blank" href="https://ellis.eu/phd-postdoc">ELLIS PhD student</a> in Machine Learning at the University of Copenhagen, supervised by <a target="_blank" href="https://scholar.google.com/citations?user=7VAwhzUAAAAJ&hl=en">Ole Winther</a>. My research focuses on applying deep learning methods to biological applications. 
+I am an <a target="_blank" href="https://ellis.eu/phd-postdoc">ELLIS PhD student</a> in Machine Learning at the University of Copenhagen, supervised by <a target="_blank" href="https://scholar.google.com/citations?user=7VAwhzUAAAAJ&hl=en">Ole Winther</a> and <a target="_blank" href="https://www.chalmers.se/en/persons/simonols/">Simon Olsson</a>. My research focuses on generative models for accelerating molecular dynamics simulations. I am also interested in large-scale training of DNA language models.
 
 Previously, I worked at <a target="_blank" href="https://deeplab.ai/">DeepLab</a>, where I developed generative models for transcriptomics and deep neural networks for EEG-based brain-computer interfaces. 
 
