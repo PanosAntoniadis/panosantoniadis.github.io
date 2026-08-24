@@ -7,6 +7,4 @@ related_posts: false
 
 I attended <strong><a href='https://icml.cc/Conferences/2026'>ICML 2026</a></strong> in Seoul and was excited to present <a href='https://panosantoniadis.github.io/platito/'>PLaTITO</a> as a poster.
 
-<div style="max-width: 300px;">
 {% include figure.liquid path="assets/img/icml26.jpg" class="img-fluid rounded z-depth-1" %}
-</div>
