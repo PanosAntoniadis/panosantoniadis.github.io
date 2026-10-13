@@ -1,16 +1,48 @@
 ---
 ---
 
-@misc{antoniadis2025platito,
+@misc{marin2026ragenome,
+  abbr={arXiv},
+  author={Marin, Frederikke Isa and Antoniadis, Panagiotis and Brilli, Dionysia Danai and Bjerregaard, Andreas and DeVries, Rachael and Li, Yan and Winther, Ole and Boomsma, Wouter},
+  title={RAGenome: Scaling Retrieval-Based Genomic Language Models to Long Contexts},
+  year={2026},
+  eprint={2610.11761},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2610.11761},
+  pdf={https://arxiv.org/pdf/2610.11761},
+  code={https://github.com/PanosAntoniadis/RAGenome},
+  preview={ragenome.png},
+  bibtex_show=True,
+  selected=True,
+  abstract={The genome holds the blueprint that governs the biological properties of the cell.
+Consequently, advancing our knowledge of genomic function is crucial both for
+a broader understanding of biology and for continued biomedical advances. The
+success of large language models on natural language and protein sequences has
+motivated similar efforts on genomic data. However, standard genomic language
+models (gLMs) often require extremely large computational resources and still
+fall behind traditional methods on some downstream tasks. Recently, MSA-based
+pretraining has been proposed as an efficient alternative, but existing models are
+limited to short input contexts, restricting their use to short-range tasks, such as
+variant effect prediction. In this work, we present RAGenome, the first retrieval-based gLM that scales pretraining to longer contexts (100× longer than existing
+MSA-based gLMs), allowing it to capture both across-species evolutionary relationships and within-species longer-range interactions. Trained on whole-genome
+alignments from 100 vertebrates, RAGenome substantially improves the long-range capabilities of MSA-based gLMs, raising gene finding performance from
+0.45 to 0.60, while remaining competitive on purely evolutionary-based tasks like
+prioritizing pathogenic variants. RAGenome provides competitive gLM performance at a fraction of the training cost, unifying evolutionary modeling and longrange capabilities within a single, flexible, scalable framework.}
+}
+
+@inproceedings{antoniadis2025platito,
   abbr={ICML 2026},
   author={Antoniadis, Panagiotis and Pavesi, Beatrice and Olsson, Simon and Winther, Ole},
   title={Protein Language Model Embeddings Improve Generalization of Implicit Transfer Operators},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
   year={2026},
-  eprint={2602.11216},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2602.11216},
-  pdf={https://arxiv.org/pdf/2602.11216},
+  volume={306},
+  series={Proceedings of Machine Learning Research},
+  publisher={PMLR},
+  pages={2987--3015},
+  url={https://proceedings.mlr.press/v306/antoniadis26a.html},
+  pdf={https://raw.githubusercontent.com/mlresearch/v306/main/assets/antoniadis26a/antoniadis26a.pdf},
   code={https://github.com/PanosAntoniadis/platito},
   preview={platito.png},
   bibtex_show=True,
